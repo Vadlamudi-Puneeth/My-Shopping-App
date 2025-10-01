@@ -1,11 +1,9 @@
 import { useEffect, useState } from "react";
-import Navbar from "../components/Navbar";
 import { useNavigate, useParams } from "react-router";
 import { LoadingSkeleton } from "../components/ui/LoadingSkeleton";
-import { Button } from "../components/ui/button";
-import { showSuccessToast } from "../../utils/toastMessageHelper";
 import { useAuthContext } from "../context/AppContext";
 import { ClipLoader } from "react-spinners";
+import {Button} from "../components/ui/Button";
 
 const ViewPage = () => {
   const [loading, setLoading] = useState(false);

@@ -6,7 +6,6 @@ import { CartSideBar } from "../components/ui/CartSideBar";
 const BasicLayOut = () => {
 
     const {cart} = useAuthContext();
-    const {removeFromCart} = useAuthContext();
 
     const isCartEmpty = cart.length === 0;
 
