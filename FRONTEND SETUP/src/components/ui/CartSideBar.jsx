@@ -1,6 +1,6 @@
 import { ClipLoader } from "react-spinners";
 import { useAuthContext } from "../../context/AppContext";
-import { Button } from "./button";
+import { Button } from "./Button";
 import { useNavigate } from "react-router";
 import { useState } from "react";
 import { testRazorpay } from "../../utils/testRazorpay";
