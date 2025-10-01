@@ -1,7 +1,6 @@
 import { Outlet } from "react-router";
 import Navbar from "../components/Navbar";
 import { useAuthContext } from "../context/AppContext";
-import { Button } from "../components/ui/button";
 import { CartSideBar } from "../components/ui/CartSideBar";
 
 const BasicLayOut = () => {
