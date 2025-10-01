@@ -31,6 +31,11 @@ app.use(express.json()); // body-parser in json format
 
 app.use(cookieParser());
 
+// ✅ Root route (this is what fixes the 404 on Render root URL)
+app.get("/", (req, res) => {
+  res.send("✅ Backend is running. Use /api/v1/... for APIs");
+});
+
 // Mount all API routes
 app.use("/api/v1", apiRouter);
 
