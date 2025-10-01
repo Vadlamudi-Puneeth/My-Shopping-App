@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { IoMenu } from "react-icons/io5";
 import { Link, useNavigate, useSearchParams } from "react-router";
-import { Button } from "./ui/button";
-import { ShowErrorToast, showSuccessToast } from "../../utils/toastMessageHelper";
+import { Button } from "./ui/Button";
 import { AuthContext, useAuthContext } from "../context/AppContext";
 
 const Navbar = ({searchBox = true}) =>{
